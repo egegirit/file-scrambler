@@ -1,7 +1,7 @@
-# File Splitter and Joiner
+# File Scrambler
 
 ## Overview
-The File Splitter and Joiner is a Python program designed to break a single large file into multiple smaller chunks, which can later be joined to reconstruct the original file. This utility provides multiple customization options for users and has built-in support for encryption and hashing features. The created chunk names and sizes can be randomly generated and the amount of chunk files can be given as an argument. The optional encryption feature allows the chunks to be encrypted and decrypted with different keys using AES-GCM. A key file will be created during the encryption process, which can be used to decrypt the file later. The created chunks will be stored in a newly created chunks folder. The example-image.png file can be used to test the program. The joined chunks are combined to a single file under the name original-file to create the original file.
+The File Scrambler is a Python program designed to break a single file into multiple smaller chunks, which can later be joined to reconstruct the original file. This utility provides multiple customization options for users and has built-in support for encryption and hashing features. The created chunk names and sizes can be randomly generated and the amount of chunk files can be given as an argument. The optional encryption feature allows the chunks to be encrypted and decrypted with different keys using AES-GCM. A key file will be created during the encryption process, which can be used to decrypt the file later. The created chunks will be stored in a newly created chunks folder. The example-image.png file can be used to test the program. The joined chunks are combined to a single file under the name original-file to create the original file.
 
 ## Features
 
